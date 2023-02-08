@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.accordion {
+  display: flex;
+  justify-content: center;
+  width: 500px !important;
+}
+.accordion .steps {
+  width: 100%;
+}
+.accordion .steps .sect {
+  width: 100%;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(230, 230, 230);
+  border-bottom: solid white;
+  cursor: pointer;
+}
+.accordion .steps .sect-p {
+  background-color: rgb(245, 245, 245);
+  padding: 20px 50px;
+  display: none;
+}
+.accordion .steps .sect-p p {
+  margin-bottom: 0px;
+  height: 70px;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}/*# sourceMappingURL=style.css.map */

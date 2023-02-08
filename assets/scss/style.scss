@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.accordion {
+    display: flex;
+    justify-content: center;
+    width: 500px !important;
+
+    .steps {
+        width: 100%;
+
+        .sect {
+            width: 100%;
+            padding: 0 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(230, 230, 230);
+            border-bottom: solid white;
+            cursor: pointer;
+        }
+
+        .sect-p {
+            background-color: rgb(245, 245, 245);
+            padding: 20px 50px;
+            display: none;
+
+            p {
+                margin-bottom: 0px;
+                height: 70px;
+            }
+        }
+    }
+}
+
+// js
+.rotated {
+    transform: rotate(180deg);
+}
